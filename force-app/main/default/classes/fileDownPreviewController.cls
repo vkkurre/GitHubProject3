@@ -16,7 +16,7 @@ public with sharing class fileDownPreviewController {
         double kb = (double)size_in_bytes / kilo;
         double mb = kb / kilo;
         double gb = mb / kilo;
-        double tb = gb / kilo;
+        double tb = gb / kilo;Vinay
         if(size_in_bytes < kilo) {
             s = size_in_bytes + ' Bytes';
         } else if(size_in_bytes >= kilo && size_in_bytes < mega) {
